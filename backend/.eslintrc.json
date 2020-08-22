@@ -1,11 +1,13 @@
 {
   "env": {
-    "es6": true,
-    "node": true
+    "es2020": true,
+    "node": true,
+    "jest": true
   },
   "extends": [
     "airbnb-base",
     "plugin:@typescript-eslint/recommended",
+
     "prettier/@typescript-eslint",
     "plugin:prettier/recommended"
   ],
@@ -19,15 +21,28 @@
     "sourceType": "module"
   },
   "plugins": [
+    "prettier",
     "@typescript-eslint"
   ],
   "rules": {
     "prettier/prettier": "error",
     "no-console": "off",
     "class-methods-use-this": "off",
-    "@typescript-eslint/interface-name-prefix":["error",{"prefixWithI":"always"}],
+    "camelcase":"off",
     "@typescript-eslint/camelcase": "off",
     "no-useless-constructor":"off",
+
+    "@typescript-eslint/naming-convention": [
+      "error",
+      {
+        "selector": "interface",
+        "format": ["PascalCase"],
+        "custom": {
+          "regex": "^I[A-Z]",
+          "match": true
+        }
+      }
+    ],
     "@typescript-eslint/no-unused-vars": [
       "error",
       {

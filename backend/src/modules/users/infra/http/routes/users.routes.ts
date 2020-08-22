@@ -1,9 +1,11 @@
-import { Router } from 'express'
+import { Router } from 'express';
 
-const usersRouter = Router()
+import UsersController from '../controller/UsersController';
 
-usersRouter.get('/', (request, response) => {
-  return response.json({message:'Hello World again again'})
-})
+const usersRouter = Router();
 
-export default usersRouter
+const userController = new UsersController();
+
+usersRouter.post('/', userController.create);
+
+export default usersRouter;
