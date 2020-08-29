@@ -1,0 +1,66 @@
+{
+  "posts":[
+    {
+      "id":1,
+      "title": "Adote o Cleitinho",
+      "description": "O Cleito é um doguindo super divertido",
+      "imgURL": "https://images.unsplash.com/photo-1534361960057-19889db9621e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
+      "owner": {
+        "id": 1,
+        "name":"Abrigo Flora e Fauna",
+        "avatar_url":"https://images.unsplash.com/photo-1552053831-71594a27632d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=312&q=80"
+      }
+    },
+    {
+      "id":2,
+      "title": "Adote o Jorge",
+      "description": "O Jorge é um doguindo super divertido",
+      "imgURL": "https://images.unsplash.com/photo-1527938299158-61aae7fc37fe?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "owner": {
+        "id": 2,
+        "name":"Abrigo Salvar",
+        "avatar_url":"https://images.unsplash.com/photo-1522008693277-086ad6075b78?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80"
+      }
+    },
+    {
+      "id":3,
+      "title": "Adote o Bruno",
+      "description": "O Bruno é um doguindo super divertido",
+      "imgURL": "https://images.unsplash.com/photo-1566195099758-e83e1d4cc01a?ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80",
+      "owner": {
+        "id": 2,
+        "name":"Abrigo Salvar",
+        "avatar_url":"https://images.unsplash.com/photo-1522008693277-086ad6075b78?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80"
+      }
+    },
+    {
+      "id":4,
+      "title": "Adote o Bruno",
+      "description": "O Bruno é um doguindo super divertido",
+      "imgURL": "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
+      "owner": {
+        "id": 1,
+        "name":"Abrigo Flora e Fauna",
+        "avatar_url":"https://images.unsplash.com/photo-1552053831-71594a27632d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=312&q=80"
+      }
+    }
+  ],
+  "users":[
+    {
+      "id": 1,
+      "name":"Abrigo Flora e Fauna",
+      "email": "abrigo1@gmail.com",
+      "password":"animals",
+      "avatar_url":"https://images.unsplash.com/photo-1552053831-71594a27632d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=312&q=80",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed nisi erat. Maecenas eu facilisis mauris. Suspendisse eu sapien ipsum. Integer mollis ligula tortor. Vestibulum dapibus lectus scelerisque ante egestas convallis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ligula lorem, posuere faucibus eros euismod, posuere porttitor mauris. Sed consequat ligula sed nisl ornare, quis facilisis lacus rhoncus.\nEtiam fermentum lectus id nunc euismod finibus. In hac habitasse platea dictumst. Sed vel mauris in nisi eleifend eleifend nec suscipit nulla. Nulla varius vitae justo a feugiat. Phasellus metus sapien, suscipit eget finibus eu, consectetur nec nunc. Nullam semper purus ut nulla sodales porttitor. In non sem ut lectus gravida tristique nec eu quam. Ut egestas ut nulla a mollis. Etiam consectetur sit amet nibh non tempor. Aenean sit amet facilisis purus. Phasellus mi justo, dictum a placerat ultricies, finibus et turpis. Fusce sit amet efficitur lacus. Vivamus luctus erat dolor. Proin tristique, urna in facilisis elementum, neque sem imperdiet enim, ac pellentesque enim lorem sed nulla. Phasellus accumsan euismod libero ut mattis. Phasellus tortor urna, bibendum ac volutpat sit amet, mattis vitae odio."
+    },
+    {
+      "id": 2,
+      "name":"Abrigo Salvar",
+      "email": "abrigo2@gmail.com",
+      "password":"animals",
+      "avatar_url":"https://images.unsplash.com/photo-1522008693277-086ad6075b78?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed nisi erat. Maecenas eu facilisis mauris. Suspendisse eu sapien ipsum. Integer mollis ligula tortor. Vestibulum dapibus lectus scelerisque ante egestas convallis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ligula lorem, posuere faucibus eros euismod, posuere porttitor mauris. Sed consequat ligula sed nisl ornare, quis facilisis lacus rhoncus.\nEtiam fermentum lectus id nunc euismod finibus. In hac habitasse platea dictumst. Sed vel mauris in nisi eleifend eleifend nec suscipit nulla. Nulla varius vitae justo a feugiat. Phasellus metus sapien, suscipit eget finibus eu, consectetur nec nunc. Nullam semper purus ut nulla sodales porttitor. In non sem ut lectus gravida tristique nec eu quam. Ut egestas ut nulla a mollis. Etiam consectetur sit amet nibh non tempor. Aenean sit amet facilisis purus. Phasellus mi justo, dictum a placerat ultricies, finibus et turpis. Fusce sit amet efficitur lacus. Vivamus luctus erat dolor. Proin tristique, urna in facilisis elementum, neque sem imperdiet enim, ac pellentesque enim lorem sed nulla. Phasellus accumsan euismod libero ut mattis. Phasellus tortor urna, bibendum ac volutpat sit amet, mattis vitae odio."
+    }
+  ]
+}
